@@ -96,7 +96,7 @@ const uploadAndConvert = async (navigate, full_file_name, file, format, setTitle
             setTitle("Finding Title");
             let conversionFilename = await convertToDesiredFormat(navigate, uploadFilepath, format);
             if (conversionFilename != undefined) {
-                const downloadURL = `/download/${conversionFilename}/${encodeURIComponent(uploadFilepath)}`;
+                const downloadURL = `${process.env.REACT_APP_BASE_URL}/download/${conversionFilename}/${encodeURIComponent(uploadFilepath)}`;
                 download(navigate, downloadURL, setToDownload);
                 setTitle(conversionFilename);
                 setIsConverting(true);
