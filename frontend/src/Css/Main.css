@@ -1,0 +1,344 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lobster', sans-serif;
+}
+
+html {
+    font-size: 10px;
+}
+
+.m-maindiv {
+    width: 100vw;
+    height: 100vh;
+    background: url('../Images/bg.png') no-repeat center fixed;
+    background-size: cover;
+    backdrop-filter: blur(12px);
+    display: grid;
+    place-items: center;
+}
+.MuiSelect-icon {
+    color: white !important;
+    font-size: 1.8rem !important;
+ }
+.m-contentdiv{
+    background-color: rgba(0,0,0,0.1);
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+
+.m-toast-body{
+    font-size: 1.5rem;
+}
+
+@media screen and (width<300px)
+{
+    .m-maindiv{
+        display: none;
+    }
+}
+@media screen and (width<489px) and (width>=300px)
+{
+    .m-contentdiv{
+        width:29rem;
+        height:22rem;
+    }
+    .m-head{
+        /* background-color: pink; */
+        display: grid;
+        place-items:center;
+        font-size: 2rem;
+        letter-spacing: 0.2rem;
+        color: white;
+    }
+    .m-tag{
+        color: white;
+        display: grid;
+        place-items:center;
+        font-size: 1rem;
+        padding-left:1rem;
+        padding-right: 1rem;
+        /* background-color: black; */
+    }
+    #m-tagline{
+        text-align: center !important;
+    }
+    .m-btndiv{
+        display: grid;
+        place-items: center;
+        /* background-color: cyan; */
+    }
+    .m-btn{
+        cursor: pointer;
+        padding: 1rem;
+        width: 28rem;
+        height: 4.8rem;
+        background-color: blue;
+        font-size: 1.8rem;
+        color: white;
+        font-weight: bold;
+        letter-spacing: 0.2rem;
+        border: none;
+        outline: none;
+        border: 0.3rem solid white;
+    }
+}
+@media screen and (width<538px) and (width>=489px)
+{
+    .m-contentdiv{
+        width:48.4rem;
+        height:21rem;
+    }
+    .m-head{
+        /* background-color: pink; */
+        display: grid;
+        place-items:center;
+        font-size: 2rem;
+        letter-spacing: 0.2rem;
+        color: white;
+    }
+    .m-tag{
+        color: white;
+        display: grid;
+        place-items:center;
+        font-size: 1rem;
+        padding-left:1rem;
+        padding-right: 1rem;
+        /* background-color: black; */
+    }
+    .m-btndiv{
+        display: grid;
+        place-items: center;
+        /* background-color: cyan; */
+    }
+    .m-btn{
+        cursor: pointer;
+        padding: 1rem;
+        width: 30rem;
+        height: 4.8rem;
+        background-color: blue;
+        font-size: 1.8rem;
+        color: white;
+        font-weight: bold;
+        letter-spacing: 0.2rem;
+        border: none;
+        outline: none;
+        border: 0.3rem solid white;
+    }
+}
+@media screen and (width<643px) and (width>=538px)
+{
+    .m-contentdiv{
+        width: 52rem;
+        height:21rem;
+    }
+    .m-head{
+        /* background-color: pink; */
+        display: grid;
+        place-items:center;
+        font-size: 2rem;
+        letter-spacing: 0.2rem;
+        color: white;
+    }
+    .m-tag{
+        color: white;
+        display: grid;
+        place-items:center;
+        font-size: 1rem;
+        padding-left:1rem;
+        padding-right: 1rem;
+        /* background-color: black; */
+    }
+    .m-btndiv{
+        display: grid;
+        place-items: center;
+        /* background-color: cyan; */
+    }
+    .m-btn{
+        cursor: pointer;
+        padding: 1rem;
+        width: 30rem;
+        height: 4.8rem;
+        background-color: blue;
+        font-size: 1.8rem;
+        color: white;
+        font-weight: bold;
+        letter-spacing: 0.2rem;
+        border: none;
+        outline: none;
+        border: 0.3rem solid white;
+    }
+}
+@media screen and (width<693px) and (width>=643px)
+{
+    .m-contentdiv{
+        width:63rem;
+        height:21rem;
+    }
+    .m-head{
+        /* background-color: pink; */
+        display: grid;
+        place-items:center;
+        font-size: 2.5rem;
+        letter-spacing: 0.2rem;
+        color: white;
+    }
+    .m-tag{
+        color: white;
+        display: grid;
+        place-items:center;
+        font-size: 1.3rem;
+        padding-left:1rem;
+        padding-right: 1rem;
+        /* background-color: black; */
+    }
+    .m-btndiv{
+        display: grid;
+        place-items: center;
+        /* background-color: cyan; */
+    }
+    .m-btn{
+        cursor: pointer;
+        padding: 1rem;
+        width: 30rem;
+        height: 4.8rem;
+        background-color: blue;
+        font-size: 1.8rem;
+        color: white;
+        font-weight: bold;
+        letter-spacing: 0.2rem;
+        border: none;
+        outline: none;
+        border: 0.3rem solid white;
+    }
+}
+@media screen and (width<779px) and (width>=693px)
+{
+    .m-contentdiv{
+        width:65rem;
+        height:21rem;
+    }
+    .m-head{
+        /* background-color: pink; */
+        display: grid;
+        place-items:center;
+        font-size: 2.5rem;
+        letter-spacing: 0.2rem;
+        color: white;
+    }
+    .m-tag{
+        color: white;
+        display: grid;
+        place-items:center;
+        font-size: 1.3rem;
+        padding-left:1rem;
+        padding-right: 1rem;
+        /* background-color: black; */
+    }
+    .m-btndiv{
+        display: grid;
+        place-items: center;
+        /* background-color: cyan; */
+    }
+    .m-btn{
+        cursor: pointer;
+        padding: 1rem;
+        width: 30rem;
+        height: 4.8rem;
+        background-color: blue;
+        font-size: 1.8rem;
+        color: white;
+        font-weight: bold;
+        letter-spacing: 0.2rem;
+        border: none;
+        outline: none;
+        border: 0.3rem solid white;
+    }
+}
+@media screen and (width<891px) and (width>=779px){
+    .m-contentdiv{
+        width:73rem;
+        height:21rem;
+    }
+    .m-head{
+        /* background-color: pink; */
+        display: grid;
+        place-items:center;
+        font-size: 2.5rem;
+        letter-spacing: 0.2rem;
+        color: white;
+    }
+    .m-tag{
+        color: white;
+        display: grid;
+        place-items:center;
+        font-size: 1.3rem;
+        padding-left:1rem;
+        padding-right: 1rem;
+        /* background-color: black; */
+    }
+    .m-btndiv{
+        display: grid;
+        place-items: center;
+        /* background-color: cyan; */
+    }
+    .m-btn{
+        cursor: pointer;
+        padding: 1rem;
+        width: 30rem;
+        height: 4.8rem;
+        background-color: blue;
+        font-size: 1.8rem;
+        color: white;
+        font-weight: bold;
+        letter-spacing: 0.2rem;
+        border: none;
+        outline: none;
+        border: 0.3rem solid white;
+    }
+}
+@media screen and (width>=891px)
+{
+    .m-contentdiv{
+        width:84rem;
+        height:21rem;
+    }
+    .m-head{
+        /* background-color: pink; */
+        display: grid;
+        place-items:center;
+        font-size: 2.5rem;
+        letter-spacing: 0.2rem;
+        color: white;
+    }
+    .m-tag{
+        color: white;
+        display: grid;
+        place-items:center;
+        font-size: 1.3rem;
+        padding-left:1rem;
+        padding-right: 1rem;
+        /* background-color: black; */
+    }
+    .m-btndiv{
+        display: grid;
+        place-items: center;
+        /* background-color: cyan; */
+    }
+    .m-btn{
+        cursor: pointer;
+        padding: 1rem;
+        width: 30rem;
+        height: 4.8rem;
+        background-color: blue;
+        font-size: 1.8rem;
+        color: white;
+        font-weight: bold;
+        letter-spacing: 0.2rem;
+        border: none;
+        outline: none;
+        border: 0.3rem solid white;
+    }   
+    
+}

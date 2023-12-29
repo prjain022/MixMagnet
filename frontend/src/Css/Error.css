@@ -1,0 +1,124 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+html{
+    font-size:10px;
+}
+.err-maindiv{
+    width:100vw;
+    height:100vh;
+    background: url('../Images/bg.png') no-repeat center fixed;
+    background-size: cover;
+    backdrop-filter: blur(12px);
+    display: grid;
+    place-items: center;
+}
+.err-subdiv{
+    width: 84rem;
+    height:21rem;
+    background-color: rgba(0,0,0,0.1);
+    display: grid;
+    place-items: center;
+    color:white;
+    font-size: 3rem;
+    letter-spacing: 0.3rem;
+}
+@media screen and (width<300px)
+{
+    .err-maindiv{
+        display: none;
+    }
+}
+@media screen and (width<489px) and (width>=300px)
+{
+    .err-subdiv{
+        width: 29rem;
+        height:18rem;
+        background-color: rgba(0,0,0,0.1);
+        display: grid;
+        place-items: center;
+        color:white;
+        font-size: 2rem;
+        letter-spacing: 0.3rem;
+    }
+}
+@media screen and (width<538px) and (width>=489px)
+{
+    .err-subdiv{
+        width: 46rem;
+        height:21rem;
+        background-color: rgba(0,0,0,0.1);
+        display: grid;
+        place-items: center;
+        color:white;
+        font-size: 2.4rem;
+        letter-spacing: 0.3rem;
+    }
+}
+@media screen and (width<643px) and (width>=538px)
+{
+    .err-subdiv{
+        width: 51rem;
+        height:21rem;
+        background-color: rgba(0,0,0,0.1);
+        display: grid;
+        place-items: center;
+        color:white;
+        font-size: 2.4rem;
+        letter-spacing: 0.3rem;
+    }
+}
+@media screen and (width<693px) and (width>=643px)
+{
+    .err-subdiv{
+        width: 60rem;
+        height:21rem;
+        background-color: rgba(0,0,0,0.1);
+        display: grid;
+        place-items: center;
+        color:white;
+        font-size: 2.4rem;
+        letter-spacing: 0.3rem;
+    }
+}
+@media screen and (width<779px) and (width>=693px)
+{
+    .err-subdiv{
+        width: 67rem;
+        height:21rem;
+        background-color: rgba(0,0,0,0.1);
+        display: grid;
+        place-items: center;
+        color:white;
+        font-size: 3rem;
+        letter-spacing: 0.3rem;
+    }
+}
+@media screen and (width<891px) and (width>=779px)
+{
+    .err-subdiv{
+        width: 70rem;
+        height:21rem;
+        background-color: rgba(0,0,0,0.1);
+        display: grid;
+        place-items: center;
+        color:white;
+        font-size: 3rem;
+        letter-spacing: 0.3rem;
+    }
+}
+@media screen and (width>=891px)
+{
+    .err-subdiv{
+        width: 84rem;
+        height:21rem;
+        background-color: rgba(0,0,0,0.1);
+        display: grid;
+        place-items: center;
+        color:white;
+        font-size: 3rem;
+        letter-spacing: 0.3rem;
+    }
+}

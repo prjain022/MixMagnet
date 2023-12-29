@@ -1,0 +1,629 @@
+.MuiSelect-icon {
+    color: white !important;
+    font-size: 1.8rem !important;
+ }
+
+ .m-converting-div{
+    /* background-color: black; */
+    background-color: rgba(0,0,0,0.1);
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    /* display: none; */
+}
+.m-conversion-div{
+    /* background-color: black; */
+    background-color: rgba(0,0,0,0.1);
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+.m-conversion-title{
+    /* background-color: blue; */
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.1rem;
+    color:white;
+    /* display: none; */
+}
+.m-converting-btn{
+    cursor: pointer;
+    padding: 1rem;
+    letter-spacing: 0.2rem;
+    border: none;
+    outline: none;
+    border: 0.2rem solid white;
+    border-radius:0.4rem ;
+    -webkit-border-radius:0.4rem ;
+    -moz-border-radius:0.4rem ;
+    -ms-border-radius:0.4rem ;
+    -o-border-radius:0.4rem ;
+    background-color: blue;
+    color: white;
+    font-weight: bold;
+}
+#m-title-btn{
+    margin-left:0.4rem;
+    cursor: pointer;
+    padding: 0.2rem;
+    background-color: blue;
+    color: white;
+    font-weight: bold;
+    letter-spacing: 0.2rem;
+    border: none;
+    outline: none;
+    border: 0.1rem solid white;
+}
+.m-conversion-input-div{
+    /* background-color: green; */
+    display: grid;
+    align-items: center;
+    /* display: none; */
+}
+#yt-input{
+    border: none;
+    outline: none;
+    border-radius: 0.4rem;
+    -webkit-border-radius: 0.4rem;
+    -moz-border-radius: 0.4rem;
+    -ms-border-radius: 0.4rem;
+    -o-border-radius: 0.4rem;
+    padding-left:2rem;
+    color:#707070;
+    font-size:1.5rem;
+}
+#upload-input{
+    height:4.5rem;
+    color:white;
+    /* background-color: red; */
+    display: grid;
+    place-items: center;
+}
+input::file-selector-button
+{
+    font-family: 'Lobster', sans-serif;
+    cursor: pointer;
+}
+.m-selectbox-div
+{
+    display: grid;
+    align-items: center;
+    justify-items: start;
+}
+.m-select{
+    outline: none;
+    border: none;
+    border:0.2rem solid white;
+}
+.m-item-list{
+    font-size: 30rem;
+}
+.m-convert-btn-div{
+    /* background-color: lightcoral; */
+    display: grid;
+    align-items: center;
+    padding-left: 1rem;
+}
+.m-convert-btn{
+    cursor: pointer;
+    padding: 1rem;
+    background-color: blue;
+    color: white;
+    font-weight: bold;
+    letter-spacing: 0.2rem;
+    border: none;
+    outline: none;
+    border: 0.2rem solid white;
+    border-radius:0.4rem ;
+    -webkit-border-radius:0.4rem ;
+    -moz-border-radius:0.4rem ;
+    -ms-border-radius:0.4rem ;
+    -o-border-radius:0.4rem ;
+}
+
+@media screen and (width<300px)
+{
+    .m-maindiv{
+        display: none;
+    }
+}
+@media screen and (width<489px) and (width>=300px)
+{
+    .m-converting-div{
+        width:28rem;
+        height:15rem;
+    }
+    .m-download-btndiv{
+        display: grid;
+        padding-left:1rem;
+        /* background-color: red; */
+    }
+    .m-convertnext-btndiv{
+        display: grid;
+    }
+    .m-conversion-div{
+        width:28rem;
+        height:20rem;
+    }
+    .m-conversion-title{
+        padding-left: 1rem;
+        font-size:1.2rem;
+    }
+    .m-converting-btn{
+        width: 12rem;
+        height: 4rem;
+        font-size: 1.1rem;
+    }
+    #m-title-btn{
+        width: 10.1rem;
+        height: 3rem;
+        font-size: 1.2rem;        
+    }
+    .m-conversion-input-div{
+        padding-left:1rem;
+    }
+    #yt-input{
+        width:26rem;
+        height:4.5rem;
+    }
+    ::placeholder{
+        font-size: 1.2rem;
+    }
+    #upload-input{
+        width:26rem;
+        font-size:1.2rem;
+    }
+    input::file-selector-button{
+        width:16rem;
+        height:4rem;
+        font-size:1.2rem;
+    }
+    .m-conversion-btndiv{
+        /* background-color: purple; */
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        /* display: none; */
+    }
+    .m-selectbox-div{
+        padding-left:1rem;
+        /* background-color: pink; */
+    }
+    .m-select{
+        width:12rem;
+        height:4rem;
+        font-size: 1.3rem !important;
+    }
+    .m-convert-btn{
+        width: 10rem;
+        height: 4rem;
+        font-size: 1.2rem;
+    }       
+}
+@media screen and (width<538px) and (width>=489px)
+{
+    .m-converting-div{
+        width:46rem;
+        height:21rem;
+    }
+    .m-download-btndiv{
+        display: grid;
+        justify-content: end;
+        align-content: center;
+        padding-left:3rem;
+    }
+    .m-convertnext-btndiv{
+        display: grid;
+        padding-left: 1rem;
+        align-content: center;
+    }
+    .m-conversion-div{
+        width:46rem;
+        height:24rem;
+    }
+    .m-conversion-title{
+        padding-left: 3rem;
+        font-size:2rem;
+    }
+    .m-converting-btn{
+        width: 19rem;
+        height: 4.8rem;
+        font-size: 1.8rem;
+    }
+    #m-title-btn{
+        width: 14rem;
+        height: 4rem;
+        font-size: 1.8rem;        
+    }
+    .m-conversion-input-div{
+        padding-left:3rem;
+    }
+    #yt-input{
+        width:41rem;
+        height:4.5rem;
+    }
+    #upload-input{
+        width:41rem;
+        font-size:1.5rem;
+    }
+    input::file-selector-button{
+        width:16rem;
+        height:4.5rem;
+        font-size:1.5rem;
+    }
+    .m-conversion-btndiv{
+        /* background-color: purple; */
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        /* display: none; */
+    }
+    .m-selectbox-div{
+        padding-left:3rem;
+        /* background-color: pink; */
+    }
+    .m-select{
+        width:20rem;
+        height:4.8rem;
+        font-size: 40rem;
+    }
+    .m-convert-btn{
+        width: 20rem;
+        height: 4.8rem;
+        font-size: 1.8rem;
+    }
+}
+@media screen and (width<643px) and (width>=538px)
+{
+    .m-converting-div{
+        width:51rem;
+        height:21rem;
+    }
+    .m-download-btndiv{
+        display: grid;
+        justify-content: end;
+        align-content: center;
+        padding-left:3rem;
+    }
+    .m-convertnext-btndiv{
+        display: grid;
+        padding-left: 1rem;
+        align-content: center;
+    }
+    .m-conversion-div{
+        width:51rem;
+        height:24rem;
+    }
+    .m-conversion-title{
+        padding-left: 3rem;
+        font-size:2rem;
+    }
+    .m-converting-btn{
+        width: 22rem;
+        height: 4.8rem;
+        font-size: 1.8rem;
+    }
+    #m-title-btn{
+        width: 14rem;
+        height: 4rem;
+        font-size: 1.8rem;        
+    }
+    .m-conversion-input-div{
+        padding-left:3rem;
+    }
+    #yt-input{
+        width:46rem;
+        height:4.5rem;
+    }
+    #upload-input{
+        width:48rem;
+        font-size:1.5rem;
+    }
+    input::file-selector-button{
+        width:20rem;
+        height:4.5rem;
+        font-size:1.5rem;
+    }
+    .m-conversion-btndiv{
+        /* background-color: purple; */
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        /* display: none; */
+    }
+    .m-selectbox-div{
+        padding-left:3rem;
+        /* background-color: pink; */
+    }
+    .m-select{
+        width:23rem;
+        height:4.8rem;
+        font-size: 40rem;
+    }
+    .m-convert-btn{
+        width: 23rem;
+        height: 4.8rem;
+        font-size: 1.8rem;
+    }
+}
+@media screen and (width<693px) and (width>=643px)
+{
+    .m-converting-div{
+        width:62rem;
+        height:21rem;
+    }
+    .m-download-btndiv{
+        display: grid;
+        justify-content: end;
+        align-content: center;
+        padding-left:3rem;
+    }
+    .m-convertnext-btndiv{
+        display: grid;
+        padding-left: 1rem;
+        align-content: center;
+    }
+    .m-conversion-div{
+        width:62rem;
+        height:24rem;
+    }
+    .m-conversion-title{
+        padding-left: 3rem;
+        font-size:2rem;
+    }
+    .m-converting-btn{
+        width: 24rem;
+        height: 4.8rem;
+        font-size: 1.8rem;
+    }
+    #m-title-btn{
+        width: 14rem;
+        height: 4rem;
+        font-size: 1.8rem;        
+    }
+    .m-conversion-input-div{
+        padding-left:3rem;
+    }
+    #yt-input{
+        width:50rem;
+        height:4.5rem;
+    }
+    #upload-input{
+        width:50rem;
+        font-size:1.5rem;
+    }
+    input::file-selector-button{
+        width:26rem;
+        height:4.5rem;
+        font-size:1.5rem;
+    }
+    .m-conversion-btndiv{
+        /* background-color: purple; */
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        /* display: none; */
+    }
+    .m-selectbox-div{
+        padding-left:3rem;
+        /* background-color: pink; */
+    }
+    .m-select{
+        width:23rem;
+        height:4.8rem;
+        font-size: 40rem;
+    }
+    .m-convert-btn{
+        width: 23rem;
+        height: 4.8rem;
+        font-size: 1.8rem;
+    }
+}
+@media screen and (width<779px) and (width>=693px)
+{
+    .m-converting-div{
+        width:67rem;
+        height:21rem;
+    }
+    .m-download-btndiv{
+        display: grid;
+        justify-content: end;
+        align-content: center;
+        padding-left:3rem;
+    }
+    .m-convertnext-btndiv{
+        display: grid;
+        padding-left: 1rem;
+        align-content: center;
+    }
+    .m-conversion-div{
+        width:67rem;
+        height:24rem;
+    }
+    .m-conversion-title{
+        padding-left: 3rem;
+        font-size:2rem;
+    }
+    .m-converting-btn{
+        width: 30rem;
+        height: 4.8rem;
+        font-size: 1.8rem;
+    }
+    #m-title-btn{
+        width: 14rem;
+        height: 4rem;
+        font-size: 1.8rem;        
+    }
+    .m-conversion-input-div{
+        padding-left:3rem;
+    }
+    #yt-input{
+        width:50rem;
+        height:4.5rem;
+    }
+    #upload-input{
+        width:50rem;
+        font-size:1.5rem;
+    }
+    input::file-selector-button{
+        width:26rem;
+        height:4.5rem;
+        font-size:1.5rem;
+    }
+    .m-conversion-btndiv{
+        /* background-color: purple; */
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        /* display: none; */
+    }
+    .m-selectbox-div{
+        padding-left:3rem;
+        /* background-color: pink; */
+    }
+    .m-select{
+        width:21rem;
+        height:4.8rem;
+        font-size: 40rem;
+    }
+    .m-convert-btn{
+        width: 21rem;
+        height: 4.8rem;
+        font-size: 1.8rem;
+    }
+}
+@media screen and (width<891px) and (width>=779px){
+    .m-converting-div{
+        width:84rem;
+        height:23rem;
+    }
+    .m-download-btndiv{
+        display: grid;
+        justify-content: end;
+        align-content: center;
+        padding-left:3rem;
+    }
+    .m-convertnext-btndiv{
+        display: grid;
+        padding-left: 1rem;
+        align-content: center;
+    }
+    .m-conversion-div{
+        width:75rem;
+        height:24rem;
+    }
+    .m-conversion-title{
+        padding-left: 3rem;
+        font-size:2rem;
+    }
+    .m-converting-btn{
+        width: 30rem;
+        height: 4.8rem;
+        font-size: 1.8rem;
+    }
+    #m-title-btn{
+        width: 14rem;
+        height: 4rem;
+        font-size: 1.8rem; 
+    }
+    .m-conversion-input-div{
+        padding-left:3rem;
+    }
+    #yt-input{
+        width:50rem;
+        height:4.5rem;
+    }
+    #upload-input{
+        width:50rem;
+        font-size:1.5rem;
+    }
+    input::file-selector-button{
+        width:26rem;
+        height:4.5rem;
+        font-size:1.5rem;
+    }
+    .m-conversion-btndiv{
+        /* background-color: purple; */
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        /* display: none; */
+    }
+    .m-selectbox-div{
+        padding-left:3rem;
+        /* background-color: pink; */
+    }
+    .m-select{
+        width:21rem;
+        height:4.8rem;
+        font-size: 40rem;
+    }
+    .m-convert-btn{
+        width: 21rem;
+        height: 4.8rem;
+        font-size: 1.8rem;
+    }
+}
+@media screen and (width>=891px)
+{
+    .m-converting-div{
+        width:84rem;
+        height:24rem;
+    }
+    .m-download-btndiv{
+        display: grid;
+        justify-content: end;
+        align-content: center;
+        padding-left:3rem;
+    }
+    .m-convertnext-btndiv{
+        display: grid;
+        padding-left: 1rem;
+        align-content: center;
+    }
+    .m-conversion-div{
+        width:84rem;
+        height:24rem;
+    }
+    .m-conversion-title{
+        padding-left: 3rem;
+        font-size:2rem;
+    }
+    .m-converting-btn{
+        width: 30rem;
+        height: 4.8rem;
+        font-size: 1.8rem;
+    }
+    #m-title-btn{
+        width: 14rem;
+        height: 4rem;
+        font-size: 1.8rem;        
+    }
+    .m-conversion-input-div{
+        padding-left:3rem;
+    }
+    #yt-input{
+        width:50rem;
+        height:4.5rem;
+    }
+    #upload-input{
+        width:50rem;
+        font-size:1.5rem;
+    }
+    input::file-selector-button{
+        width:26rem;
+        height:4.5rem;
+        font-size:1.5rem;
+    }
+    .m-conversion-btndiv{
+        /* background-color: purple; */
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+    }
+    .m-selectbox-div{
+        padding-left:3rem;
+        /* background-color: pink; */
+    }
+    .m-select{
+        width:30rem;
+        height:4.8rem;
+        font-size: 40rem;
+    }
+    .m-convert-btn{
+        width: 30rem;
+        height: 4.8rem;
+        font-size: 1.8rem;
+    }
+}
