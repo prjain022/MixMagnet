@@ -85,6 +85,7 @@ const uploadAndConvert = async (navigate, full_file_name, file, format, setTitle
     isValidExt = isValidExt != undefined ? true : false;
 
     if (isValidExt) {
+        setTitle('Uploading File...');
         convertFileField();
         setShowBtn(false);
         let uploadFilepath = await uploadFile(navigate, file);

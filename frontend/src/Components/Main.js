@@ -9,7 +9,7 @@ import { ToastContainer } from "react-toastify";
 function Main()
 {
     const tagline = "Elevate Your Media Experience : Download, Convert, Delight!";
-    const [show,setShow] = useState(true);
+    const [show,setShow] = useState(false);
     const tryNow = ()=>{
         setShow(false);
     }

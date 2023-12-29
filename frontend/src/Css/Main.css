@@ -41,14 +41,14 @@ html {
 @media screen and (width<489px) and (width>=300px)
 {
     .m-contentdiv{
-        width:29rem;
+        width:27rem;
         height:22rem;
     }
     .m-head{
         /* background-color: pink; */
         display: grid;
         place-items:center;
-        font-size: 2rem;
+        font-size: 1.6rem;
         letter-spacing: 0.2rem;
         color: white;
     }
@@ -56,7 +56,7 @@ html {
         color: white;
         display: grid;
         place-items:center;
-        font-size: 1rem;
+        font-size: 0.8rem;
         padding-left:1rem;
         padding-right: 1rem;
         /* background-color: black; */
@@ -72,7 +72,7 @@ html {
     .m-btn{
         cursor: pointer;
         padding: 1rem;
-        width: 28rem;
+        width: 24rem;
         height: 4.8rem;
         background-color: blue;
         font-size: 1.8rem;
@@ -87,14 +87,14 @@ html {
 @media screen and (width<538px) and (width>=489px)
 {
     .m-contentdiv{
-        width:48.4rem;
+        width:46rem;
         height:21rem;
     }
     .m-head{
         /* background-color: pink; */
         display: grid;
         place-items:center;
-        font-size: 2rem;
+        font-size: 1.9rem;
         letter-spacing: 0.2rem;
         color: white;
     }
@@ -102,7 +102,7 @@ html {
         color: white;
         display: grid;
         place-items:center;
-        font-size: 1rem;
+        font-size: 0.9rem;
         padding-left:1rem;
         padding-right: 1rem;
         /* background-color: black; */
@@ -130,7 +130,7 @@ html {
 @media screen and (width<643px) and (width>=538px)
 {
     .m-contentdiv{
-        width: 52rem;
+        width: 51rem;
         height:21rem;
     }
     .m-head{
@@ -173,14 +173,14 @@ html {
 @media screen and (width<693px) and (width>=643px)
 {
     .m-contentdiv{
-        width:63rem;
+        width:61rem;
         height:21rem;
     }
     .m-head{
         /* background-color: pink; */
         display: grid;
         place-items:center;
-        font-size: 2.5rem;
+        font-size: 2.2rem;
         letter-spacing: 0.2rem;
         color: white;
     }
@@ -188,7 +188,7 @@ html {
         color: white;
         display: grid;
         place-items:center;
-        font-size: 1.3rem;
+        font-size: 1.2rem;
         padding-left:1rem;
         padding-right: 1rem;
         /* background-color: black; */
