@@ -202,7 +202,7 @@ input::file-selector-button
 }
 @media screen and (width>=342px) and (width<421px)
 {
-    .m-select,.m-convert-btn{
+    .m-select,.m-convert-btn,.m-converting-btn{
         width:14.6rem;
     }
     #yt-input,#upload-input{
@@ -211,7 +211,7 @@ input::file-selector-button
 }
 @media screen and (width>=381px) and (width<421px)
 {
-    .m-select,.m-convert-btn{
+    .m-select,.m-convert-btn,.m-converting-btn{
         width:16.5rem;
     }
     #yt-input,#upload-input{
@@ -220,7 +220,7 @@ input::file-selector-button
 }
 @media screen and (width>=421px) and (width<461px)
 {
-    .m-select,.m-convert-btn{
+    .m-select,.m-convert-btn,.m-converting-btn{
         width:18rem;
     }
     #yt-input,#upload-input{
@@ -235,7 +235,7 @@ input::file-selector-button
     ::placeholder{
         font-size: 1.4rem;
     }
-    .m-select,.m-convert-btn{
+    .m-select,.m-convert-btn,.m-converting-btn{
         width:20rem;
         font-size: 1.2rem;
     }
