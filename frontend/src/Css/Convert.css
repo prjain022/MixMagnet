@@ -125,10 +125,10 @@ input::file-selector-button
         display: none;
     }
 }
-@media screen and (width<489px) and (width>=300px)
+@media screen and (width>=300px) and (width<489px) 
 {
     .m-converting-div{
-        width:28rem;
+        width:97vw;
         height:15rem;
     }
     .m-download-btndiv{
@@ -140,7 +140,7 @@ input::file-selector-button
         display: grid;
     }
     .m-conversion-div{
-        width:28rem;
+        width:97vw;
         height:20rem;
     }
     .m-conversion-title{
@@ -161,7 +161,7 @@ input::file-selector-button
         padding-left:1rem;
     }
     #yt-input{
-        width:26rem;
+        width:27rem;
         height:4.5rem;
         font-size: 1.2rem;
         padding-right: 1rem;
@@ -170,7 +170,7 @@ input::file-selector-button
         font-size: 1.2rem;
     }
     #upload-input{
-        width:26rem;
+        width:90vw;
         font-size:1.2rem;
         padding-left:0.7rem;
     }
@@ -190,20 +190,64 @@ input::file-selector-button
         /* background-color: pink; */
     }
     .m-select{
-        width:12rem;
+        width:13rem;
         height:4rem;
         font-size: 1.3rem !important;
     }
     .m-convert-btn{
-        width: 10rem;
+        width: 13rem;
         height: 4rem;
         font-size: 1.2rem;
     }       
 }
-@media screen and (width<538px) and (width>=489px)
+@media screen and (width>=342px) and (width<421px)
+{
+    .m-select,.m-convert-btn{
+        width:14.6rem;
+    }
+    #yt-input,#upload-input{
+        width:28rem;
+    }
+}
+@media screen and (width>=381px) and (width<421px)
+{
+    .m-select,.m-convert-btn{
+        width:16.5rem;
+    }
+    #yt-input,#upload-input{
+        width:29rem;
+    }
+}
+@media screen and (width>=421px) and (width<461px)
+{
+    .m-select,.m-convert-btn{
+        width:18rem;
+    }
+    #yt-input,#upload-input{
+        width:30rem;
+    }
+}
+@media screen and (width>=461px) and (width<489px)
+{
+    .m-conversion-title{
+        font-size:1.5rem;
+    }
+    ::placeholder{
+        font-size: 1.4rem;
+    }
+    .m-select,.m-convert-btn{
+        width:20rem;
+        font-size: 1.2rem;
+    }
+    #yt-input,#upload-input{
+        width:32rem;
+        font-size: 1.4rem;
+    }
+}
+@media screen and (width>=489px) and (width<538px)
 {
     .m-converting-div{
-        width:46rem;
+        width:95vw;
         height:21rem;
     }
     .m-download-btndiv{
@@ -218,7 +262,7 @@ input::file-selector-button
         align-content: center;
     }
     .m-conversion-div{
-        width:46rem;
+        width:95vw;
         height:24rem;
     }
     .m-conversion-title{
@@ -243,11 +287,11 @@ input::file-selector-button
         height:4.5rem;
     }
     #upload-input{
-        width:41rem;
+        width:90vw;
         font-size:1.5rem;
     }
     input::file-selector-button{
-        width:16rem;
+        width:18rem;
         height:4.5rem;
         font-size:1.5rem;
     }
@@ -272,10 +316,11 @@ input::file-selector-button
         font-size: 1.8rem;
     }
 }
-@media screen and (width<643px) and (width>=538px)
+
+@media screen and (width>=538px) and (width<643px)
 {
     .m-converting-div{
-        width:51rem;
+        width:94vw;
         height:21rem;
     }
     .m-download-btndiv{
@@ -290,7 +335,7 @@ input::file-selector-button
         align-content: center;
     }
     .m-conversion-div{
-        width:51rem;
+        width:94vw;
         height:24rem;
     }
     .m-conversion-title{
@@ -315,11 +360,11 @@ input::file-selector-button
         height:4.5rem;
     }
     #upload-input{
-        width:48rem;
+        width:92vw;
         font-size:1.5rem;
     }
     input::file-selector-button{
-        width:20rem;
+        width:22rem;
         height:4.5rem;
         font-size:1.5rem;
     }
@@ -344,7 +389,7 @@ input::file-selector-button
         font-size: 1.8rem;
     }
 }
-@media screen and (width<693px) and (width>=643px)
+@media screen and (width>=643px) and (width<693px)
 {
     .m-converting-div{
         width:62rem;
@@ -416,7 +461,7 @@ input::file-selector-button
         font-size: 1.8rem;
     }
 }
-@media screen and (width<779px) and (width>=693px)
+@media screen and (width>=693px) and (width<779px)
 {
     .m-converting-div{
         width:67rem;
@@ -488,7 +533,7 @@ input::file-selector-button
         font-size: 1.8rem;
     }
 }
-@media screen and (width<891px) and (width>=779px){
+@media screen and (width>=779px) and (width<891px) {
     .m-converting-div{
         width:84rem;
         height:23rem;

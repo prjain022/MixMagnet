@@ -38,10 +38,10 @@ html {
         display: none;
     }
 }
-@media screen and (width<489px) and (width>=300px)
+@media screen and (width>=300px) and (width<489px) 
 {
     .m-contentdiv{
-        width:27rem;
+        width:97vw;
         height:22rem;
     }
     .m-head{
@@ -84,10 +84,10 @@ html {
         border: 0.3rem solid white;
     }
 }
-@media screen and (width<538px) and (width>=489px)
+@media screen and (width>=489px) and (width<538px) 
 {
     .m-contentdiv{
-        width:46rem;
+        width:95vw;
         height:21rem;
     }
     .m-head{
@@ -127,10 +127,10 @@ html {
         border: 0.3rem solid white;
     }
 }
-@media screen and (width<643px) and (width>=538px)
+@media screen and (width>=538px) and (width<643px) 
 {
     .m-contentdiv{
-        width: 51rem;
+        width: 94vw;
         height:21rem;
     }
     .m-head{
@@ -170,7 +170,7 @@ html {
         border: 0.3rem solid white;
     }
 }
-@media screen and (width<693px) and (width>=643px)
+@media screen and (width>=643px) and (width<693px) 
 {
     .m-contentdiv{
         width:61rem;
@@ -213,7 +213,7 @@ html {
         border: 0.3rem solid white;
     }
 }
-@media screen and (width<779px) and (width>=693px)
+@media screen and (width>=693px) and (width<779px) 
 {
     .m-contentdiv{
         width:65rem;
@@ -256,7 +256,7 @@ html {
         border: 0.3rem solid white;
     }
 }
-@media screen and (width<891px) and (width>=779px){
+@media screen and (width>=779px) and (width<891px) {
     .m-contentdiv{
         width:73rem;
         height:21rem;
