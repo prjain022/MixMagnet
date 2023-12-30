@@ -40,8 +40,9 @@ function Convert(){
     useEffect(()=>{
        if(ele.current)
        {
+        const extension = title.substring(title.lastIndexOf('.'),title.length);
         const noOfChars = Math.round((ele.current.offsetWidth/840)*66);
-        setWidth(noOfChars);
+        setWidth(noOfChars-extension.length);
        }
     },[isConverting,width])
     //Functions
@@ -89,7 +90,7 @@ function Convert(){
         return(
 
             <div className='m-converting-div'  ref={ele}>
-                <div className="m-conversion-title">{title.length>width?title.substring(0,width)+' .......':title}</div>
+                <div className="m-conversion-title">{title.length>width?title.substring(0,width)+`...(${title.substring(title.lastIndexOf('.'),title.length)})`:title}</div>
                 <div className='m-conversion-btndiv'>
                     <div className='m-download-btndiv'>
                         <button className='m-converting-btn' onClick={downloadFile}>Download</button>
