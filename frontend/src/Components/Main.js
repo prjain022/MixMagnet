@@ -32,7 +32,7 @@ function Main()
                         <h2>MixMagnet</h2>
                     </div>
                     <div className="m-tag">
-                        <TypeWriterEffect id='m-tagline' cursorColor='white' text={tagline} typeSpeed={150} hideCursorAfterText={true} />
+                        <TypeWriterEffect id='m-tagline' cursorColor='white' text={tagline} typeSpeed={50} hideCursorAfterText={true} />
                     </div>
                     <div className="m-btndiv">
                         <button className="m-btn" onClick={tryNow}>Try Now</button>
